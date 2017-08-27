@@ -12,7 +12,9 @@ Frequency Table for Notes: [http://pages.mtu.edu/~suits/notefreq446.html](http:/
 
 ## Use the tone
 
-To use a tone on grub, you need to modify ```/etc/default/grub``` and update grub, usually with ```grub-mkconfig -o /boot/grub/grub.cfg```.
+To use a tone on grub, you need to modify ```/etc/default/grub``` , set a tone for the ''GRUB_INIT_TUNE'' variable and update grub, usually with ```grub-mkconfig -o /boot/grub/grub.cfg```.
+
+e.g. ```GRUB_INIT_TUNE="1750 523 1 392 1 523 1 659 1 784 1 1047 1 784 1 415 1 523 1 622 1 831 1 622 1 831 1 1046 1 1244 1 1661 1 1244 1 466 1 587 1 698 1 932 1 1195 1 1397 1 1865 1 1397 1"```
 
 ## Tones
 
