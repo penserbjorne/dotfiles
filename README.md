@@ -2,6 +2,11 @@
 
 Archivos, scripts o configuraciones utiles.
 
+## Utilidades ;@
+
+- [https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
+- [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
 ## gnome-terminal
 
 Para reiniciar el perfil de la terminal:
