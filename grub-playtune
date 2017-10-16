@@ -1,8 +1,11 @@
 #!/bin/bash
+# Penserbjorne
+# Taked from this thread: https://askubuntu.com/questions/76309/play-a-sound-before-or-after-grub-loads
 
 if [ $# -lt 3 ]; then
     echo ""
-    echo "Script for play some tones based on a frequency and duration, util to test tones for GRUB_INIT_TUNE ."
+    echo "Script for play some tones based on a frequency and duration."
+    echo "Util to test tones for GRUB_INIT_TUNE ."
     echo ""
     echo "This script need to have installed \"sox\" on your system."
     echo ""

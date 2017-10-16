@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-# @Penserbjorne
+# Penserbjorne
 # Taked from : https://stackoverflow.com/questions/31667160/running-docker-container-iptables-no-chain-target-match-by-that-name
 
 echo "Resetting iptables ..."
