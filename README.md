@@ -5,9 +5,10 @@ Archivos, scripts o configuraciones útiles para este Penserbjorne ;@
 ## Utilidades ;@
 
 - [https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
-- [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), aun no me decido por un tema, asi que hay que asignarlo random ;@
+- [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), aun no me decido por un tema, así que hay que asignarlo random ;@
 - [https://github.com/p-e-w/ternimal](https://github.com/p-e-w/ternimal)
     - ```pacaur -S ternimal-git```
+- Neofetch ```pacaur -S neofetch```
 
 ## gnome-terminal
 
