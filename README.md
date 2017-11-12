@@ -1,11 +1,13 @@
 # my_utils
 
-Archivos, scripts o configuraciones utiles para este Penserbjorne ;@
+Archivos, scripts o configuraciones útiles para este Penserbjorne ;@
 
 ## Utilidades ;@
 
 - [https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
 - [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), aun no me decido por un tema, asi que hay que asignarlo random ;@
+- [https://github.com/p-e-w/ternimal](https://github.com/p-e-w/ternimal)
+    - ```pacaur -S ternimal-git```
 
 ## gnome-terminal
 
@@ -22,6 +24,16 @@ Sacado de [https://askubuntu.com/a/823564](https://askubuntu.com/a/823564)
 ## grub-playtune
 
 Script para probar tonos que puede usar grub cuando arranca el equipo.
+
+## Ternimal
+
+[https://github.com/p-e-w/ternimal/blob/master/ternimal.rs#L88-L173](Parámetros) que se pueden utilizar para configurar las animaciones.
+
+- Anaconda => ```ternimal length=100 segments=50 thickness=1,4,1,0 radius=6,12 gradient=0:#666600,0.5:#00ff00,1:#003300```
+- Swarm => ```ternimal length=200 segments=50 thickness=0,4,19,0```
+- Rainbow => ```ternimal length=20 thickness=70,15,0,5 padding=10 radius=5 gradient=0.03:#ffff00,0.15:#0000ff,0.3:#ff0000,0.5:#00ff00```
+- BlackHole => ```ternimal speed=10 length=100 segments=5 thickness=13 gradient=0.5:#000000,0.8:#ffffff,1:#000000```
+
 
 ## xrandr
 
