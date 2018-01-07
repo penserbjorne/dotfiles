@@ -26,6 +26,12 @@ Sacado de [https://askubuntu.com/a/823564](https://askubuntu.com/a/823564)
 
 Script para probar tonos que puede usar grub cuando arranca el equipo.
 
+## i3
+
+### i3_config
+
+Archivo de configuración para wmi3, es necesario cambiar el nombre de ```i3_config``` a ```config```.
+
 ## Ternimal
 
 [https://github.com/p-e-w/ternimal/blob/master/ternimal.rs#L88-L173](Parámetros) que se pueden utilizar para configurar las animaciones.
