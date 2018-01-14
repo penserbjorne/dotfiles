@@ -198,7 +198,7 @@ mode "$mode_launcher" {
     bindsym c exec chromium
     bindsym d exec dropbox
     bindsym f exec firefox
-    bindsym f exex nautilus
+    bindsym n exec nautilus
     bindsym t exec telegram-desktop
 
     bindsym Escape mode "default"
