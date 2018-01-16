@@ -174,7 +174,7 @@ client.placeholder          $magenta	$magenta   $silver	$white
 # finds out, if available)
 bar
 {
-	position top
+	position bottom
 	status_command i3blocks
 	#status_command i3status
 	separator_symbol ":|:"
@@ -214,4 +214,5 @@ smart_gaps on
 exec --no-startup-id compton -f
 
 # Others
-exec --no-startup-id notify-send "Welcome back Penserbjorne\!"
+exec --no-startup-id twmnd
+exec --no-startup-id twmnc "Welcome back Penserbjorne!"
