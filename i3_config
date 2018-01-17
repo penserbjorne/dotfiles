@@ -214,5 +214,5 @@ smart_gaps on
 exec --no-startup-id compton -f
 
 # Others
-exec --no-startup-id twmnd
-exec --no-startup-id twmnc "Welcome back Penserbjorne!"
+#exec --no-startup-id twmnd
+#exec --no-startup-id twmnc "Welcome back Penserbjorne!"
