@@ -8,8 +8,8 @@ neofetch
 
 # Install programs
 sudo pacman -Syu
-sudo pacman -S --needed atom compton dropbox gparted i3-gaps i3blocks i3lock i3status dmenu gimp libnotify npm rofi spotify telegram-desktop wireshark-qt yaourt xf86-video-intel xf86-video-nouveau
-yaourt -S --needed neofetch twmn-git
+sudo pacman -S --needed atom compton dropbox gparted i3-gaps i3blocks i3lock i3status dmenu gimp libnotify npm rofi telegram-desktop wireshark-qt yaourt xf86-video-intel xf86-video-nouveau
+yaourt -S --needed neofetch twmn-git spotify
 
 read -p "Execute npm install? (y/n) " -n 1 -r
 echo

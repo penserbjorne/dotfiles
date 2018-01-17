@@ -190,7 +190,7 @@ bar
 }
 
 # Press $mod+o followed by either letter or Escape/Return to return to the default mode, respectively.
-set $mode_launcher Launch: [a]tom [c]hromium [d]ropbox [f]irefox [n]autilus [t]elegram
+set $mode_launcher Launch: [a]tom [c]hromium [d]ropbox [f]irefox [n]autilus [s]potify [t]elegram
 bindsym $mod+o mode "$mode_launcher"
 
 mode "$mode_launcher" {
@@ -199,6 +199,7 @@ mode "$mode_launcher" {
     bindsym d exec dropbox
     bindsym f exec firefox
     bindsym n exec nautilus
+    bindsym s exec spotify
     bindsym t exec telegram-desktop
 
     bindsym Escape mode "default"
