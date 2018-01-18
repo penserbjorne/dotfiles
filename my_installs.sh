@@ -11,6 +11,13 @@ sudo pacman -Syu
 sudo pacman -S --needed atom cmatrix compton dropbox gparted i3-gaps i3blocks i3lock i3status dmenu gimp libnotify npm rofi telegram-desktop wireshark-qt yaourt xf86-video-intel xf86-video-nouveau
 yaourt -S --needed neofetch twmn-git musixmatch-bin spotify
 
+read -p "Install Java8/JDK8 related? (y/n) " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	sudo pacman -S --needed jre8-openjdk-headless jre8-openjdk jdk8-openjdk openjdk8-doc openjdk8-src
+fi
+
 read -p "Execute npm install? (y/n) " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
@@ -24,9 +31,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	cp ./i3_config /home/$USER/.config/i3/config
 fi
-
-# twmnd
-# notify-send 'It Works!' 'This is an example notification.' --icon=dialog-information
 
 read -p "Reboot? (y/n) " -n 1 -r
 
