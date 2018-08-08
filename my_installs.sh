@@ -8,7 +8,7 @@ neofetch
 
 # Install programs
 sudo pacman -Syudd --force --needed
-sudo pacman -S --needed atom cmatrix compton dropbox gparted i3-gaps i3blocks i3lock i3status iptables dmenu gimp libnotify nftables npm rofi telegram-desktop wireshark-qt yaourt xf86-video-intel xf86-video-nouveau
+sudo pacman -S --needed atom cmatrix compton dropbox gparted i3-gaps i3blocks i3lock i3status iptables keepassxc dmenu gimp libnotify nftables npm rofi telegram-desktop wireshark-qt yaourt xf86-video-intel xf86-video-nouveau
 yaourt -S --force --needed neofetch twmn-git musixmatch-bin polybar-git spotify signal-desktop-bin
 
 read -p "Install Java8/JDK8 related? (y/n) " -n 1 -r
