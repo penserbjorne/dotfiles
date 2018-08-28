@@ -7,16 +7,16 @@
 neofetch
 
 # Update system
-sudo pacman -Syudd --force --needed
+sudo pacman -Syudd --force
 
 # Install i3 related stuff
-sudo pacman -S --needed compton i3-gaps i3blocks i3lock i3status dmenu libnotify rofi
-yaourt -S --force --needed --noconfirm twmn-git polybar-git
+sudo pacman -S --needed compton i3-gaps i3blocks i3lock i3status dmenu rofi
+yaourt -S --needed --noconfirm twmn-git polybar-git
 
 # Install programs
-sudo pacman -S --needed atom dropbox gparted iptables keepassxc gimp nftables npm \
+sudo pacman -S --needed atom dropbox gparted keepassxc gimp npm \
 	telegram-desktop wireshark-qt yaourt xf86-video-intel xf86-video-nouveau
-yaourt -S --force --needed --noconfirm neofetch musixmatch-bin spotify signal-desktop-bin
+yaourt -S --force --needed --noconfirm cryptomator neofetch spotify signal
 
 # Install funny stuffs
 sudo pacman -S --needed --noconfirm cmatrix
