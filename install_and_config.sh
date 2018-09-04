@@ -15,8 +15,12 @@ yaourt -S --needed --noconfirm twmn-git polybar-git
 
 # Install programs
 sudo pacman -S --needed atom dropbox gparted keepassxc gimp npm \
-	telegram-desktop wireshark-qt yaourt xf86-video-intel xf86-video-nouveau
+	telegram-desktop wireshark-qt yaourt
 yaourt -S --force --needed --noconfirm cryptomator neofetch spotify signal
+
+# Install graphics
+sudo pacman -S --needed xf86-video-intel xf86-video-nouveau \
+	mesa mesa-demos freeglut
 
 # Install funny stuffs
 sudo pacman -S --needed --noconfirm cmatrix
