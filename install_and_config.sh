@@ -10,8 +10,9 @@ neofetch
 sudo pacman -Syudd --force
 
 # Install i3 related stuff
-sudo pacman -S --needed compton i3-gaps i3blocks i3lock i3status dmenu rofi
-yaourt -S --needed --noconfirm twmn-git polybar-git
+sudo pacman -S --needed compton i3-gaps i3blocks i3lock i3status dmenu rofi \
+			playerctl
+yaourt -S --needed --noconfirm polybar-git
 
 # Install programs
 sudo pacman -S --needed atom calibre dropbox gnome-latex gparted keepassxc gimp npm \

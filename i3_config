@@ -198,7 +198,7 @@ mode "$mode_launcher" {
     bindsym c exec chromium
     bindsym d exec dropbox
     bindsym f exec firefox
-    bindsym m exec musixmatch
+   # bindsym m exec musixmatch
     bindsym n exec nautilus
     bindsym s exec spotify
     bindsym t exec telegram-desktop
@@ -215,6 +215,27 @@ smart_gaps on
 # Compositor for window transparency
 exec --no-startup-id compton -f
 
-# Others
-#exec --no-startup-id twmnd
-#exec --no-startup-id twmnc "Welcome back Penserbjorne!"
+# increase sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+
+# decrease sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+
+# mute sound
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+
+# increase screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5
+
+# decrease screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5
+
+# Touchpad controls (por verificar)
+# bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym Pause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
