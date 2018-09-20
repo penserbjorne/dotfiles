@@ -177,8 +177,8 @@ client.placeholder          $magenta	$magenta   $silver	$white
 bar
 {
 	position bottom
-	status_command i3blocks
-	#status_command i3status
+	#status_command i3blocks
+	status_command i3status
 	separator_symbol ":|:"
 	colors
 	{
