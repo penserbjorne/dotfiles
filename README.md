@@ -49,3 +49,13 @@ Izquierda -> ```$ xrandr --output VGA --left-of LVDS```
 Derecha -> ```$ xrandr --output VGA --right-of LVDS```
 
 Asignando modos -> ```$ xrandr --output LVDS --mode 1280x800 --output VGA --mode 1024x768 --left-of LVDS```
+
+## nmcli (revisar)
+
+´´´
+nmcli radio
+nmcli device
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi connect SSID-Name -ask
+´´´
