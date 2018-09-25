@@ -17,7 +17,7 @@ yaourt -S --needed --noconfirm polybar-git
 # Install programs
 sudo pacman -S --needed atom calibre dropbox gnome-latex gparted keepassxc gimp npm \
 	telegram-desktop texlive-core wireshark-qt yaourt
-yaourt -S --force --needed --noconfirm cryptomator neofetch spotify signal
+yaourt -S --force --needed --noconfirm cryptomator neofetch spotify signal nbfc-git
 
 # Install graphics
 sudo pacman -S --needed xf86-video-intel xf86-video-nouveau \
@@ -38,6 +38,16 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	sudo npm install gtop -g # --needed flag? :( this need a fix
+fi
+
+read -p "nbfc stuffs? (y/n) " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	sudo systemctl enable nbfc --now
+	systemctl status nbfc
+	sudo cp ./Lenovo\ Legion\ Y720.xml /opt/nbfc/Configs/
+	nbfc config -a "Lenovo Legion Y720"
 fi
 
 read -p "Copy i3_config? (y/n) " -n 1 -r
