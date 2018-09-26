@@ -15,7 +15,7 @@ sudo pacman -S --needed compton i3-gaps i3blocks i3lock i3status dmenu rofi \
 yaourt -S --needed --noconfirm polybar-git
 
 # Install programs
-sudo pacman -S --needed atom calibre dropbox gnome-latex gparted keepassxc gimp npm \
+sudo pacman -S --needed atom acpi calibre dropbox gnome-latex gparted keepassxc gimp npm \
 	telegram-desktop texlive-core wireshark-qt yaourt
 yaourt -S --force --needed --noconfirm cryptomator neofetch spotify signal nbfc-git
 
