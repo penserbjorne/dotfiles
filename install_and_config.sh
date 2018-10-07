@@ -16,7 +16,8 @@ yaourt -S --needed --noconfirm polybar-git
 
 # Install programs
 sudo pacman -S --needed atom acpi calibre dropbox gnome-latex gparted keepassxc gimp npm \
-	telegram-desktop texlive-core wireshark-qt yaourt
+	ntfs-3g telegram-desktop texlive-core wireshark-qt
+yaourt
 yaourt -S --force --needed --noconfirm cryptomator neofetch spotify signal nbfc-git
 
 # Install graphics
