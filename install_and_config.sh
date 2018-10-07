@@ -8,21 +8,20 @@ neofetch
 
 # Update system
 sudo pacman -Syudd --force
+sudo pacman -S --needed yaourt
 
 # Install i3 related stuff
-sudo pacman -S --needed compton i3-gaps i3blocks i3lock i3status dmenu rofi \
-			playerctl
+sudo pacman -S --needed --noconfirm compton i3-gaps i3blocks i3lock i3status dmenu rofi playerctl \
+	ttf-font-awesome
 yaourt -S --needed --noconfirm polybar-git
 
 # Install programs
-sudo pacman -S --needed atom acpi calibre dropbox gnome-latex gparted keepassxc gimp npm \
-	ntfs-3g telegram-desktop texlive-core wireshark-qt
-yaourt
-yaourt -S --force --needed --noconfirm cryptomator neofetch spotify signal nbfc-git
+sudo pacman -S --needed --noconfirm atom acpi calibre dropbox gnome-latex gparted keepassxc gimp npm \
+	ntfs-3g telegram-desktop texlive-core
+yaourt -S --needed --noconfirm cryptomator neofetch spotify signal nbfc-git
 
 # Install graphics
-sudo pacman -S --needed xf86-video-intel xf86-video-nouveau \
-	mesa mesa-demos freeglut
+sudo pacman -S --needed --noconfirm xf86-video-intel xf86-video-nouveau mesa mesa-demos freeglut
 
 # Install funny stuffs
 sudo pacman -S --needed --noconfirm cmatrix
