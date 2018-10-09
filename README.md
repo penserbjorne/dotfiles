@@ -59,3 +59,21 @@ nmcli device wifi rescan
 nmcli device wifi list
 nmcli device wifi connect SSID-Name -ask
 ´´´
+
+## Montar disco compartido con Windows
+
+### En Windows
+
+Herramienta de Discos -> Seleccionar el disco deseado -> Boton Derecho -> Propiedades -> Seguridad -> Deshabilitar la opción de cache y compresión.
+
+En la barra de tareas -> Opciones de energia -> Acciones del boton de encendido -> Desactivar la Hibernación y Suspension.
+
+### En linux
+
+```
+lsblk
+mkdir -p ~/secondary-hard-drive
+sudo -s
+echo "# Secondary Hard Drive" >> /etc/fstab
+echo "/dev/sdaX /home/username/secondary-hard-drive ntfs-3g auto,rw,noatime 0 2" >> /etc/fstab
+```
