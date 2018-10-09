@@ -52,13 +52,13 @@ Asignando modos -> ```$ xrandr --output LVDS --mode 1280x800 --output VGA --mode
 
 ## nmcli (revisar)
 
-´´´
+```
 nmcli radio
 nmcli device
 nmcli device wifi rescan
 nmcli device wifi list
 nmcli device wifi connect SSID-Name -ask
-´´´
+```
 
 ## Montar disco compartido con Windows
 
