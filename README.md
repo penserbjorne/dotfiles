@@ -77,3 +77,6 @@ sudo -s
 echo "# Secondary Hard Drive" >> /etc/fstab
 echo "/dev/sdaX /home/username/secondary-hard-drive ntfs-3g auto,rw,noatime 0 2" >> /etc/fstab
 ```
+## u2f key
+sudo wget -O /etc/udev/rules.d/70-u2f.rules https://raw.githubusercontent.com/Yubico/libu2f-host/master/70-u2f.rules
+sudo udevadm trigger
