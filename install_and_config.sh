@@ -21,7 +21,7 @@ sudo pacman -S --needed --noconfirm atom acpi calibre dropbox gnome-latex gparte
 yaourt -S --needed --noconfirm cryptomator neofetch spotify signal nbfc-git
 
 # Install VirtualBox
-sudo pacman -S virtualbox virtualbox-host-modules-arch
+sudo pacman -S --needed --noconfirm virtualbox virtualbox-host-modules-arch
 
 # Install graphics
 sudo pacman -S --needed --noconfirm xf86-video-intel xf86-video-nouveau mesa mesa-demos freeglut
